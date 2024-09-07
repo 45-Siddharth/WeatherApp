@@ -2,7 +2,7 @@
 .main-background{
     background-image: url("https://res.cloudinary.com/dugs6k8rw/image/upload/v1723805588/weather_e32spb.avif");
     background-size: cover;
-    height: 150vh;
+    height: 100vh;
 }
 .background{
     background-size: cover;
@@ -22,7 +22,7 @@ label{
     font-size: 20px;
 }
 .input{
-    font-size: 38px;
+    font-size: 32px;
     font-family: "Roboto";
 }
 .para{
