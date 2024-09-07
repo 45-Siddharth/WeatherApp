@@ -70,10 +70,10 @@ function displayInfo(data)
    {
     imageEle.src = "https://res.cloudinary.com/dugs6k8rw/image/upload/v1724756173/strom-removebg-preview_qqkagh.png";
    }
-    else if(cond ==="Mist")
-    {
+   else if(cond === "Mist")
+   {
     imageEle.src = "https://res.cloudinary.com/dugs6k8rw/image/upload/v1725691734/mist-removebg-preview_riygyv.png";
-    }
+   }
 
    let highLow =document.getElementById("high-low");
    let max = (parseInt(data.main.temp_max)-273)+5;
