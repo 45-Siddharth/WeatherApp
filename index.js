@@ -72,7 +72,7 @@ function displayInfo(data)
    }
    else if(cond === "Mist")
    {
-    imageEle.src = "https://res.cloudinary.com/dugs6k8rw/image/upload/v1725691734/mist-removebg-preview_riygyv.png";
+    imageEle.src = "https://res.cloudinary.com/dugs6k8rw/image/upload/v1725694409/mist-removebg-preview_rvgpn6.png";
    }
 
    let highLow =document.getElementById("high-low");
