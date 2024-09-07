@@ -56,7 +56,7 @@ function displayInfo(data)
    }
    else if(cond === "Haze")
    {
-    imageEle.src = "https://res.cloudinary.com/dugs6k8rw/image/upload/v1724756114/haze-removebg-preview_eafznj.png";
+    imageEle.src = "https://res.cloudinary.com/dugs6k8rw/image/upload/v1725691491/haze-removebg-preview_z91d9t.png";
    }
    else if(cond === "Snow")
    {
@@ -69,6 +69,10 @@ function displayInfo(data)
    else if(cond === "Thunderstorm")
    {
     imageEle.src = "https://res.cloudinary.com/dugs6k8rw/image/upload/v1724756173/strom-removebg-preview_qqkagh.png";
+   }
+   else if(cond === "Mist")
+   {
+    imageEle.src = "https://res.cloudinary.com/dugs6k8rw/image/upload/v1725696194/Screenshot_2024-09-07_133129-removebg-preview_vcza31.png";
    }
 
    let highLow =document.getElementById("high-low");
