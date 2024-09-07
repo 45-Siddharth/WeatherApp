@@ -56,7 +56,7 @@ function displayInfo(data)
    }
    else if(cond === "Haze")
    {
-    imageEle.src = "https://res.cloudinary.com/dugs6k8rw/image/upload/v1725691491/haze-removebg-preview_z91d9t.png";
+    imageEle.src = "https://res.cloudinary.com/dugs6k8rw/image/upload/v1725697354/Haze2-removebg-preview_oqmsue.png";
    }
    else if(cond === "Snow")
    {
