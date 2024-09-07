@@ -26,8 +26,8 @@
                         <p class="mt-3 para">Get detailed information about the weather of particular place of your choice.</p>
                         <form class="mt-5" id="myForm">
                             <div class="bg-info p-3 mb-4 input-box">
-                                <label for="loc" style="font-size: 35px;">City/Location :</label>
-                                <input type="text" class="p-5 form-control input" id="loc"/>
+                                <label for="loc">City/Location :</label>
+                                <input type="text" class="p-2 form-control input" id="loc"/>
                             </div>
                             <center>
                                 <button class="btn btn-success but" type="submit" onclick="display('section2')">Submit</button>
@@ -42,7 +42,7 @@
         <div id="background-2" class="background">
             <div class="container-fluid p-5">
                 <div class="row" id="first">
-                    <div class="col-9 col-sm-9  col-md-9 col-lg-9">
+                    <div class="col-10 col-sm-10  col-md-10 col-lg-10">
                         <h5 id="results" class="mt-4" style="font-family: 'Roboto';font-size: 27px;"></h5>
                         <h4 style="font-family: 'Roboto';font-weight: bold;font-size: 37px;">Now</h4>
                         <div class="d-flex flex-row justify-content-start">
@@ -50,15 +50,15 @@
                                 <h1 id="temp" style="font-weight: bold;font-family: 'Roboto';font-size: 77px;"></h1>
                             </div>
                             <div>
-                                <i class="fa-regular fa-circle mr-2" style="font-size: 30px;"></i>
+                                <i class="fas fa-genderless mr-2" style="font-size: 30px;"></i>                            
                             </div>
                             <div>
-                                <img id="image" class="w-75"/>
+                                <img class="w-75" id="image"/>
                             </div>
                         </div>
                         <p id="high-low" style="font-family: 'Roboto';font-size: 27px;"></p>
                     </div>
-                    <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="col-2 col-sm-2 col-md-2 col-lg-2">
                         <p id="condition" class="mt-5" style="font-family: 'Roboto';font-size: 33px;"></p>
                         <p id="feel" style="font-family: 'Roboto';font-size: 25px;"></p>
                     </div>
